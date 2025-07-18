@@ -59,7 +59,8 @@ function signup() {
         return;
     }
 
-    fetch('http://localhost:5000/api/signup', {
+    fetch("https://graphical-auth-backend.onrender.com/api/signup", {
+
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
@@ -94,7 +95,7 @@ function signin() {
         return;
     }
 
-    fetch('http://localhost:5000/api/login', {
+    fetch("https://graphical-auth-backend.onrender.com/api/login", {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
